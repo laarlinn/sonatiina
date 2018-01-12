@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">Sonatiina</string>
+  <string name="aboutButton">Tietoja</string>
+  <string name="version">versio 1.9</string>
+  <string name="settingsButton">Asetukset</string>
+  <string name="openhours">"Avoinna "</string>
+  <string name="pref_appearance_title">Ulkoasu</string>
+  <string name="pref_theme">Teema</string>
+  <string name="pref_select_theme">Valitse teema</string>
+  <string name="pref_select_language">Valitse kieli</string>
+  <string name="pref_language_title">Kieli</string>
+  <string name="a">a</string>
+  <string name="b">b</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="90dp"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:layout_margin="0dp"
+        android:layout_marginBottom="0dp" />
+    <TextView
+        android:text="Sonatiina"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:textColor="#93B233"
+        android:textSize="80dp" />
+    <TextView
+        android:text="@string/version"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:gravity="center" />
+    <TextView
+        android:text="© 2017 Jussi Kauppinen &amp; Lauri Linna"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:weightSum="1"
+        android:layout_gravity="bottom">
+        <TextView
+            android:text="Sonatiina ei vastaa sovelluksessa olevasta kolmannen osapuolen tuottamasta sisällöstä tai palvelun häiriöttömästä toiminnasta."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:layout_marginBottom="20dp" />
+    </LinearLayout>
+</LinearLayout>

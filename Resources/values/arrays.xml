@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pref_themes">
+    <item>Oletus</item>
+    <item>Tumma</item>
+    <item>Pinkki</item>
+  </string-array>
+  <string-array name="pref_theme_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+  <string-array name="pref_languages">
+    <item>Suomi</item>
+    <item>Englanti</item>
+  </string-array>
+  <string-array name="pref_language_values">
+    <item>0</item>
+    <item>1</item>
+  </string-array>
+</resources>

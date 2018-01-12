@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <color name="sonaatti_violetti">#6a6ff2</color>
+  <color name="valkoinen">#ffffff</color>
+  <color name="my_purple">#B455B6</color>
+  <color name="sonaatti_tausta">#EFEAE5</color>
+  <color name="primary_color_text">#000000</color>
+
+  <color name="sonaatti_bar_tumma">#0d0d0d</color>
+  <color name="sonaatti_tausta_tumma">#333333</color>
+  <color name="primary_color_text_dark">#000000</color>
+
+  <color name="lista_otsikko_vihrea">#93B233</color>
+  <color name="lista_kuvaus_kirkas">#ffffff</color>
+  <color name="lista_kuvaus_tumma">#050505</color>
+
+  <color name="osoite_tausta_tumma">#1a1a1a</color>
+
+  <color name="sonaatti_taustapinkki">#ff44fc</color>
+  <color name="sonaatti_pinkki">#9e069e</color>
+
+  <color name="lista_kuvaus_punainen">#CE2249</color>
+
+</resources>
