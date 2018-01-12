@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <!-- Inherit from the light Material Theme -->
+    <style name="MyCustomTheme" parent="android:Theme.Material.Light">
+        <!-- Override the app bar color -->
+        <item name="android:colorPrimary">@color/sonaatti_violetti</item>
+        <!-- Override the color of UI controls -->
+        <item name="android:colorAccent">@color/lista_otsikko_vihrea</item>
+      <item name="android:textColorPrimary">@color/primary_color_text</item>
+      <item name="android:colorBackground">@color/sonaatti_tausta</item>
+      <item name="android:windowNoTitle">true</item>
+      <item name="android:statusBarColor">@color/sonaatti_violetti</item>
+      <item name="android:windowActionBar">false</item>
+    </style>
+
+  <style name="DarkTheme" parent="android:Theme.Material.Light">
+    <!-- Override the app bar color -->
+    <item name="android:colorPrimary">@color/sonaatti_bar_tumma</item>
+    <!-- Override the color of UI controls -->
+    <item name="android:colorAccent">@color/sonaatti_bar_tumma</item>
+    <item name="android:colorBackground">@color/sonaatti_tausta_tumma</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:statusBarColor">@color/sonaatti_bar_tumma</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:textColorPrimary">@color/valkoinen</item>
+    <item name="android:textColorSecondary">@color/sonaatti_bar_tumma</item>
+    <item name="android:textColorTertiary">@color/sonaatti_bar_tumma</item>
+    <item name="android:alertDialogTheme">@style/DialogStyle</item>
+  </style>
+
+  <style name="PinkTheme" parent="android:Theme.Material.Light">
+    <!-- Override the app bar color -->
+    <item name="android:colorPrimary">@color/sonaatti_pinkki</item>
+    <!-- Override the color of UI controls -->
+    <item name="android:colorAccent">@color/valkoinen</item>
+    <item name="android:textColorPrimary">@color/valkoinen</item>
+    <item name="android:colorBackground">@color/sonaatti_taustapinkki</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:statusBarColor">@color/sonaatti_pinkki</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:alertDialogTheme">@style/DialogStylePink</item>
+  </style>
+
+  <style name="DialogStyle" parent="android:Theme.Material.Dialog">
+    <item name="android:colorAccent">@color/sonaatti_tausta_tumma</item>
+  </style>
+
+  <style name="DialogStylePink" parent="android:Theme.Material.Dialog">
+    <item name="android:colorAccent">@color/valkoinen</item>
+    <item name="android:colorBackground">@color/sonaatti_pinkki</item>
+  </style>
+  
+</resources>
